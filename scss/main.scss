@@ -1,0 +1,37 @@
+@import "./header";
+@import "./intro";
+@import "./offers";
+@import "./top";
+@import "./easy-book";
+@import "./reviews";
+@import "./logos";
+@import "./subscribe";
+@import "./footer";
+
+@font-face {
+  font-family: Google_Sans;
+  src: url("/fonts/Google_Sans/ProductSans-Medium.ttf");
+}
+
+@font-face {
+  font-family: Open_Sans;
+  src: url("/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+  font-family: Volkhov;
+  src: url("/fonts/Volkhov/Volkhov-Bold.ttf");
+}
+
+body {
+  position: relative;
+  width: 1440px;
+  background: #fff;
+  box-sizing: border-box;
+  min-width: 400px;
+}

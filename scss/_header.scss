@@ -1,0 +1,150 @@
+@font-face {
+  font-family: Open_sans;
+  src: url("/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+@font-face {
+  font-family: Google_sans;
+  src: url("/fonts/Google_Sans/ProductSans-Medium.ttf");
+}
+
+// body {
+//   width: 1400px;
+//   position: relative;
+//   font-size: 20px;
+//   line-height: 1.4;
+//   color: var(--main-text-color);
+//   min-width: 320px;
+//   overflow-x: hidden;
+//   height: auto;
+//   font-family: "Lato";
+//   font-weight: 500;
+//   color: #000000;
+//   margin: 0 auto;
+// }
+
+// .header {
+//   display: flex;
+//   justify-content: space-around;
+//   align-items: center;
+//   height: 85px;
+//   background-color: #ffffff;
+// }
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 1440.8px;
+  height: 120px;
+  //   left: 140.92px;
+}
+
+.jadoo a {
+  text-decoration: none;
+  font-size: 2.7em;
+  font-family: "Google_Sans";
+  font-weight: 600;
+  color: #000000;
+  //   left: 540px;
+  padding-right: 170px;
+  padding-left: 90px;
+}
+
+.fill-letter {
+  position: relative;
+}
+
+.fill-letter:after {
+  display: block;
+  content: "";
+  position: absolute;
+}
+
+.o:after {
+  background-color: orange;
+  height: 35%;
+  left: 25%;
+  top: 40%;
+  width: 50%;
+  z-index: -1;
+}
+
+.nav__elements {
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.nav__elements li {
+  list-style: none;
+  padding: 0 30px;
+}
+
+.header__navigation ul a {
+  justify-content: flex-end;
+  //   padding: 30px;
+  text-decoration: none;
+  font-family: "Open_Sans";
+  color: #212832;
+}
+
+.reg__elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+  text-decoration: none;
+  font-family: "Open_Sans";
+  color: #212832;
+}
+
+.reg__elements li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0 25px;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.login {
+  text-decoration: none;
+  color: #212832;
+}
+
+.signUp {
+  text-decoration: none;
+  color: #212832;
+  border-radius: 5px;
+  list-style: none;
+  border: 1px solid black;
+  padding: 7px 20px;
+  margin: 0;
+}
+
+.decore {
+  position: absolute;
+  width: 766.31px;
+  height: 872.58px;
+  left: 736px;
+  top: -149px;
+  z-index: -1;
+}
+
+.second__decore {
+  position: absolute;
+  width: 478.94px;
+  height: 496.86px;
+  left: -420px;
+  top: -59.84px;
+  background: #d5aee4;
+  opacity: 0.3;
+  filter: blur(75px);
+}
