@@ -82,7 +82,7 @@
   //   left: 523px;
   //   top: 1774px;
 
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  // filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .top-box-03 {
@@ -106,6 +106,7 @@
   //   height: 457px;
   // left: 524px;
   top: 100px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .top__europe {
@@ -132,7 +133,8 @@
   width: 316px;
   height: 130px;
   left: 559px;
-  top: 521px;
+  top: 524px;
+  z-index: 0;
 
   /* white */
 
@@ -217,10 +219,10 @@
   position: relative;
   width: 114.96px;
   height: 22px;
-  //   left: -378.62px;
-  top: -108px;
+  left: -77px;
+  top: -198px;
   background-color: #fff;
-  z-index: 2;
+  z-index: 3;
 
   font-family: "Poppins";
   font-style: normal;
@@ -238,7 +240,7 @@
   width: 113.19px;
   height: 20px;
   left: -52px;
-  top: -115px;
+  top: -215px;
   z-index: 2;
 
   font-family: "Poppins";
@@ -252,6 +254,26 @@
 
   color: #5e6282;
 }
+.top__price_02 {
+  position: relative;
+  width: 58.86px;
+  height: 22px;
+  left: 92px;
+  top: -308px;
+  z-index: 2;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  /* or 22px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+
 .top__name_03 {
   position: relative;
   width: 114.96px;
