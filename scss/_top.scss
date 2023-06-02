@@ -1,0 +1,313 @@
+.top__section {
+  position: relative;
+  box-sizing: border-box;
+  align-items: center;
+  margin-top: 142px;
+  background-color: #fff;
+}
+.top__sellings {
+  position: absolute;
+  width: 190px;
+  height: 27px;
+  left: 602px;
+  //   top: 1614px;
+  display: inline;
+  //   margin-bottom: 0;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+.top__destinations {
+  position: absolute;
+  width: 418px;
+  height: 65px;
+  left: 490px;
+  //   top: 1649px;
+  //   margin-top: 20px;
+
+  font-family: "Volkhov";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  /* 3rd */
+
+  color: #14183e;
+}
+
+.top__cards {
+  display: flex;
+  max-width: 73%;
+  justify-content: space-between;
+  margin: 0 auto;
+  z-index: 0;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 260px;
+  width: 25%;
+  //   border: 1px solid #000;
+  padding: 10px;
+}
+
+.top-box-01 {
+  position: relative;
+  width: 309px;
+  height: 457px;
+  //   left: 173px;
+  //   top: 1774px;
+}
+.top-box-02 {
+  position: relative;
+  width: 315px;
+  height: 457px;
+  //   left: 523px;
+  //   top: 1774px;
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.top-box-03 {
+  position: relative;
+  width: 315px;
+  height: 457px;
+  //   left: 898px;
+  //   top: 1774px;
+}
+
+.top__rome {
+  position: relative;
+  //   width: 308.02px;
+  //   height: 457px;
+  //   left: 173.98px;
+  top: 100px;
+}
+.top__london {
+  position: relative;
+  //   width: 314px;
+  //   height: 457px;
+  // left: 524px;
+  top: 100px;
+}
+
+.top__europe {
+  position: relative;
+  //   width: 314px;
+  //   height: 457px;
+  // left: 899px;
+  top: 100px;
+}
+.card__forRome {
+  position: absolute;
+  width: 309px;
+  height: 130px;
+  padding-left: 13px;
+  top: 525px;
+
+  /* white */
+
+  background: #ffffff;
+  border-radius: 0px 0px 24px 24px;
+}
+.card__forLondon {
+  position: absolute;
+  width: 316px;
+  height: 130px;
+  left: 559px;
+  top: 521px;
+
+  /* white */
+
+  background: #ffffff;
+  border-radius: 0px 0px 24px 24px;
+}
+.card__forEurope {
+  position: absolute;
+  width: 316px;
+  height: 130px;
+  left: 920px;
+  top: 524px;
+
+  /* white */
+
+  background: #ffffff;
+  border-radius: 0px 0px 24px 24px;
+}
+
+.top__name_01 {
+  position: relative;
+  width: 114.96px;
+  height: 22px;
+  left: -78.62px;
+  top: -198px;
+  background-color: #fff;
+  z-index: 2;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  /* or 22px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+
+.top__days_01 {
+  position: relative;
+  width: 113.19px;
+  height: 20px;
+  left: -52px;
+  top: -215px;
+  z-index: 2;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 124.5%;
+  /* identical to box height, or 20px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+
+.top__price_01 {
+  position: relative;
+  width: 58.86px;
+  height: 22px;
+  left: 92px;
+  top: -308px;
+  z-index: 2;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  /* or 22px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+
+.top__name_02 {
+  position: relative;
+  width: 114.96px;
+  height: 22px;
+  //   left: -378.62px;
+  top: -108px;
+  background-color: #fff;
+  z-index: 2;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  /* or 22px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+.top__days_02 {
+  position: relative;
+  width: 113.19px;
+  height: 20px;
+  left: -52px;
+  top: -115px;
+  z-index: 2;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 124.5%;
+  /* identical to box height, or 20px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+.top__name_03 {
+  position: relative;
+  width: 114.96px;
+  height: 22px;
+  left: -79px;
+  top: -200px;
+  background-color: #fff;
+  z-index: 3;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  /* or 22px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+
+.top__days_03 {
+  position: relative;
+  width: 113.19px;
+  height: 20px;
+  left: -52px;
+  top: -215px;
+  z-index: 2;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 124.5%;
+  /* identical to box height, or 20px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
+.top__price_03 {
+  position: relative;
+  width: 58.86px;
+  height: 22px;
+  left: 92px;
+  top: -308px;
+  z-index: 2;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 124.5%;
+  /* or 22px */
+
+  /* TEXT CLR */
+
+  color: #5e6282;
+}
