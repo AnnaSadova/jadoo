@@ -18,10 +18,10 @@
       </div>
       <div class="header__navigation">
         <ul class="nav__elements">
-          <li><a id="destinations" href="#">Destinations</a></li>
-          <li><a id="hotels" href="#">Hotels</a></li>
-          <li><a id="flights" href="#">Flights</a></li>
-          <li><a id="bookings" href="#">Bookings</a></li>
+          <li><a class="destinations" href="#">Destinations</a></li>
+          <li><a class="hotels" href="#">Hotels</a></li>
+          <li><a class="flights" href="#">Flights</a></li>
+          <li><a class="bookings" href="#">Bookings</a></li>
         </ul>
       </div>
       <ul class="reg__elements">
@@ -44,6 +44,10 @@
       <img class="play-button" src="/decore/Play button.svg" />
       <a>Play Demo</a>
       <img class="traveller" src="/decore/traveller.png" />
+      <div class="img-block">
+        <img class="intro__plane_01" src="/decore/intro-plane-01.svg" />
+      </div>
+      <img class="intro__plane_02" src="/decore/intro-plane-02.svg" />
     </div>
     <div class="offers">
       <h3 class="offers__category">CATEGORY</h3>
@@ -113,6 +117,7 @@
         </div>
         <div class="card__forEurope"></div>
       </div>
+      <img class="top__decore" src="/decore/top-decore.svg" />
     </div>
     <div class="easy-book">
       <h3 class="easy__fast">Easy and Fast</h3>
@@ -194,46 +199,71 @@
       <img class="logo__05" src="/decore/logo-05.png" />
     </div>
     <div class="subscribe">
+      <img class="sub__send" src="/decore/sub-send.svg" />
       <h2>
         Subscribe to get information, latest news and other interesting offers
         about Cobham
       </h2>
-      <input />
-      <button>Subscribe</button>
+      <form action="#">
+        <input
+          type="email"
+          name="email_button"
+          placeholder="  Your email"
+          id="email_button"
+          required
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+          for="email_button"
+          class="button"
+        />
+      </form>
+      <img class="subscribe__decore_left" src="/decore/sub-decore-left.png" />
+      <img class="subscribe__decore_right" src="/decore/sub-decore-right.png" />
     </div>
     <footer>
-      <div>
-        <h2>Jadoo.</h2>
-        <h3>Book your trip in minute, get full Control for much longer.</h3>
+      <div class="footer__section">
+        <div class="section__01">
+          <h2>Jadoo.</h2>
+          <h3>Book your trip in minute, get full Control for much longer.</h3>
+        </div>
+        <div class="section__02">
+          <h2>Company</h2>
+          <h3>About</h3>
+          <h3>Careers</h3>
+          <h3>Mobile</h3>
+        </div>
+        <div class="section__03">
+          <h2>Contact</h2>
+          <h3>Help/FAQ</h3>
+          <h3>Press</h3>
+          <h3>Affilates</h3>
+        </div>
+        <div class="section__04">
+          <h2>More</h2>
+          <h3>Airlinefees</h3>
+          <h3>Airline</h3>
+          <h3>Low fare tips</h3>
+        </div>
+        <div class="section__05">
+          <div class="images">
+            <img class="facebook" src="decore/facebook.svg" />
+            <img class="instagram" src="decore/instagram.svg" />
+            <img class="twiter" src="decore/twiter.svg" />
+            <img class="youtube" src="decore/youtube.svg" />
+          </div>
+          <h2>Discover our app</h2>
+          <img class="google" src="decore/google.svg" />
+          <img class="ios" src="decore/ios.svg" />
+        </div>
       </div>
-      <div>
-        <h2>Company</h2>
-        <h3>About</h3>
-        <h3>Careers</h3>
-        <h3>Mobile</h3>
-      </div>
-      <div>
-        <h2>Contact</h2>
-        <h3>Help/FAQ</h3>
-        <h3>Press</h3>
-        <h3>Affilates</h3>
-      </div>
-      <div>
-        <h2>More</h2>
-        <h3>Airlinefees</h3>
-        <h3>Airline</h3>
-        <h3>Low fare tips</h3>
-      </div>
-      <div>
-        <img />
-        <img />
-        <img />
-        <img />
-        <h2>Discover our app</h2>
-        <img />
-        <img />
-      </div>
-      <h2>All rights reserved@jadoo.co</h2>
+      <h2 class="email__inEnd">All rights reserved@jadoo.com</h2>
+      <img class="foot__decore" src="/decore/foot-decore.svg" />
+      <img
+        class="decore__forSubscribe"
+        src="/decore/decore-for-subscribe.svg"
+      />
     </footer>
   </body>
 </html>

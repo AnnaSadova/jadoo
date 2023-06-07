@@ -115,6 +115,7 @@
   //   height: 457px;
   // left: 899px;
   top: 100px;
+  z-index: 3;
 }
 .card__forRome {
   position: absolute;
@@ -147,6 +148,7 @@
   height: 130px;
   left: 920px;
   top: 524px;
+  z-index: 3;
 
   /* white */
 
@@ -281,7 +283,7 @@
   left: -79px;
   top: -200px;
   background-color: #fff;
-  z-index: 3;
+  z-index: 4;
 
   font-family: "Poppins";
   font-style: normal;
@@ -301,7 +303,7 @@
   height: 20px;
   left: -52px;
   top: -215px;
-  z-index: 2;
+  z-index: 4;
 
   font-family: "Poppins";
   font-style: normal;
@@ -320,7 +322,7 @@
   height: 22px;
   left: 92px;
   top: -308px;
-  z-index: 2;
+  z-index: 4;
 
   font-family: "Poppins";
   font-style: normal;
@@ -332,4 +334,11 @@
   /* TEXT CLR */
 
   color: #5e6282;
+}
+.top__decore {
+  position: absolute;
+  height: 340px;
+  top: 300px;
+  left: 1190px;
+  z-index: 0;
 }
