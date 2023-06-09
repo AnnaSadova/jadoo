@@ -49,6 +49,9 @@
   border-radius: 10px;
   cursor: pointer;
 }
+.button:hover {
+  transform: scale(1.06);
+}
 
 .subscribe__decore_left {
   position: relative;

@@ -4,7 +4,6 @@
   left: 148px;
   top: 110px;
 }
-
 .intro h3 {
   position: absolute;
   width: 410px;
@@ -19,7 +18,6 @@
   text-transform: uppercase;
   color: #df6951;
 }
-
 .intro h1 {
   position: absolute;
   width: 545px;
@@ -34,7 +32,6 @@
   letter-spacing: -0.04em;
   color: #181e4b;
 }
-
 .intro p {
   position: absolute;
   width: 477px;
@@ -47,7 +44,6 @@
   line-height: 30px;
   color: #5e6282;
 }
-
 .intro button {
   position: absolute;
   width: 117px;
@@ -71,6 +67,10 @@
   border-radius: 10px;
   border: none;
 }
+.intro button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 .intro .play-button {
   position: absolute;
   width: 112px;
@@ -78,7 +78,10 @@
   left: 338px;
   top: 682px;
 }
-
+.intro .play-button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 .intro a {
   display: inline;
   position: absolute;
@@ -93,23 +96,19 @@
   line-height: 26px;
   color: #686d77;
 }
-
 .intro .traveller {
   position: absolute;
   width: 765px;
   height: 764px;
-  left: 578px;
+  left: 558px;
   top: 110px;
   z-index: 2;
 }
-
 .intro__plane_01 {
   position: absolute;
-
   width: 237.29px;
   height: 195.23px;
   rotate: 20deg;
-
   left: 711px;
   top: 138.43px;
   z-index: 10;
@@ -117,7 +116,6 @@
     animation: fly 3s linear infinite;
   }
 }
-
 @keyframes fly {
   0% {
     left: 50%;
@@ -137,47 +135,6 @@
     transform: translateY(-250px);
   }
 }
-// animation: move 5s infinite linear;
-// &:hover {
-// animation: light 1200ms ease-in-out 0s infinite alternate;
-// transform: translate(50%, 50%);
-
-// cursor: pointer;
-// }
-//   &:hover {
-//     motion-path: path(
-//       "M18.45,58.46s52.87-70.07,101.25-.75,101.75-6.23,101.75-6.23S246.38,5.59,165.33,9.08s-15,71.57-94.51,74.56S18.45,58.46,18.45,58.46Z"
-//     );
-//     offset-path: path(
-//       "M18.45,58.46s52.87-70.07,101.25-.75,101.75-6.23,101.75-6.23S246.38,5.59,165.33,9.08s-15,71.57-94.51,74.56S18.45,58.46,18.45,58.46Z"
-//     );
-//     motion-rotation: reverse;
-//     animation: move 5s linear infinite;
-//   }
-// }
-// @keyframes move {
-//   100% {
-//     motion-offset: 100%;
-//     offset-distance: 100%;
-//   }
-// }
-
-// @keyframes move {
-//   0% {
-//     offset-distance: 0%;
-//   }
-//   100% {
-//     offset-distance: 100%;
-//   }
-// }
-// @keyframes light {
-//   0% {
-//     opacity: 0;
-//   }
-//   100% {
-//     opacity: 1;
-//   }
-// }
 .intro__plane_02 {
   position: absolute;
   width: 237.29px;
