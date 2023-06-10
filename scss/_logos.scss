@@ -78,3 +78,18 @@
     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   border-radius: 10px;
 }
+
+@media (max-width: 500px) {
+  .logos {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-around;
+    position: relative;
+    top: 600px;
+    height: 700px;
+    .logo__05 {
+      display: none;
+    }
+  }
+}

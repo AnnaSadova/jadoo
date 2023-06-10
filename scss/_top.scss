@@ -269,3 +269,86 @@
   left: 1190px;
   z-index: 0;
 }
+@media (max-width: 500px) {
+  .top__section {
+    top: 257px;
+    height: 1600px;
+    position: relative;
+    width: 500px;
+    margin: 0;
+    .top__sellings {
+      position: relative;
+      top: 0;
+      left: 170px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      line-height: 30px;
+      text-align: center;
+    }
+    .top__destinations {
+      position: relative;
+      top: 0;
+      left: 80px;
+      width: 300px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 52px;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    .top__cards {
+      flex-direction: column;
+      height: 300px;
+    }
+    .top__rome {
+      top: -20px;
+    }
+    .card__forRome {
+      top: 585px;
+    }
+    .top__name_01 {
+      top: -295px;
+    }
+    .top__days_01 {
+      top: -310px;
+    }
+    .top__price_01 {
+      top: -405px;
+    }
+    .top__london {
+      top: -120px;
+    }
+    .card__forLondon {
+      top: 1220px;
+      left: 77px;
+    }
+    .top__name_02 {
+      top: -400px;
+    }
+    .top__days_02 {
+      top: -415px;
+    }
+    .top__price_02 {
+      top: -508px;
+    }
+
+    .top__europe {
+      top: -220px;
+    }
+    .card__forEurope {
+      top: 1880px;
+      left: 77px;
+    }
+    .top__name_03 {
+      top: -480px;
+    }
+    .top__days_03 {
+      top: -495px;
+    }
+    .top__price_03 {
+      top: -588px;
+    }
+  }
+}

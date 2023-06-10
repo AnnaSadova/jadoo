@@ -147,3 +147,58 @@
   top: 205.43px;
   z-index: 1;
 }
+
+@media (max-width: 500px) {
+  .intro {
+    position: relative;
+    max-width: 500px;
+    width: 500px;
+    left: -100px;
+    height: 600px;
+    .traveller {
+      display: none;
+    }
+    .intro__plane_02 {
+      position: relative;
+      top: -600px;
+      left: 50px;
+      rotate: -5deg;
+      z-index: 2;
+    }
+    .best__destination {
+      display: none;
+    }
+    .travel__enjoy {
+      position: relative;
+      left: 200px;
+      top: 20px;
+      width: 350px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 48px;
+      line-height: 89px;
+      letter-spacing: -0.04em;
+    }
+    button {
+      position: relative;
+      top: -50px;
+      left: 250px;
+    }
+    .play-button {
+      position: relative;
+      top: 100px;
+      left: 50px;
+    }
+    .play__demo {
+      position: relative;
+      top: 35px;
+      left: 35px;
+    }
+    p {
+      display: none;
+    }
+    .img-block {
+      display: none;
+    }
+  }
+}

@@ -92,3 +92,53 @@
   top: -10px;
   z-index: 2;
 }
+@media (max-width: 500px) {
+  .reviews {
+    height: 600px;
+    position: relative;
+    top: 600px;
+    .testimonials {
+      position: relative;
+      top: 10px;
+      left: 180px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 30px;
+    }
+    .about__us {
+      position: relative;
+      width: 350px;
+      top: 10px;
+      left: 85px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 52px;
+    }
+    .review__example {
+      display: flex;
+      height: 250px;
+      flex-direction: column;
+      align-items: center;
+      top: 20px;
+      width: 400px;
+      position: relative;
+      left: 50px;
+    }
+    .review__img {
+      position: relative;
+      top: -40px;
+      left: 5px;
+    }
+    .author {
+      position: relative;
+      top: 90px;
+    }
+    .place {
+      position: relative;
+      top: 70px;
+      left: 4px;
+    }
+  }
+}

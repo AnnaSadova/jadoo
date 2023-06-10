@@ -285,3 +285,64 @@
   top: 342px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+@media (max-width: 500px) {
+  .easy-book {
+    position: relative;
+    top: 750px;
+    height: 1200px;
+    .easy__fast {
+      display: none;
+    }
+    .book__trip {
+      width: 400px;
+      left: 50px;
+      top: -50px;
+      position: relative;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 52px;
+      text-align: center;
+    }
+    .easy-book__steps {
+      position: relative;
+      margin: 0;
+      left: 0;
+    }
+    .easy__img_01 {
+      left: 70px;
+      top: 185px;
+    }
+    .easy__img_02 {
+      left: 70px;
+      top: 285px;
+    }
+    .easy__img_03 {
+      left: 70px;
+      top: 385px;
+    }
+    .forCard {
+      display: none;
+    }
+    .smallcard__img {
+      display: none;
+    }
+    .ongoing {
+      display: none;
+    }
+    .trip__rome {
+      display: none;
+    }
+    .completed {
+      display: none;
+    }
+    #progressbar {
+      display: none;
+    }
+    .easy-book__card {
+      position: relative;
+      top: 90px;
+      left: 70px;
+    }
+  }
+}

@@ -77,3 +77,38 @@
   left: 1251px;
   top: 4158px;
 }
+
+@media (max-width: 500px) {
+  .subscribe {
+    background: #fff;
+    opacity: 10;
+    position: relative;
+    top: 650px;
+    height: 500px;
+    width: 400px;
+    .subscribe__decore_left {
+      display: none;
+    }
+    .subscribe__decore_right {
+      display: none;
+    }
+    .button {
+      position: relative;
+      opacity: 10;
+      top: -170px;
+      left: 110px;
+    }
+    .sub__send {
+      position: relative;
+      opacity: 10;
+      top: -95px;
+      left: 340px;
+    }
+    h2 {
+      display: none;
+    }
+    #email_button {
+      display: none;
+    }
+  }
+}

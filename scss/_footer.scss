@@ -160,6 +160,7 @@
   font-size: 14px;
   line-height: 124.5%;
   color: #5e6282;
+  z-index: 4;
 }
 .google {
   position: relative;
@@ -181,4 +182,57 @@
   opacity: 0.5;
   filter: blur(175px);
   overflow: hidden;
+}
+
+@media (max-width: 500px) {
+  .footer__section {
+    position: relative;
+    top: 150px;
+    height: 550px;
+    display: block;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    position: relative;
+    background-color: #fff1da;
+    height: 1000px;
+    padding: 0;
+    margin: 0;
+    left: -15px;
+    z-index: 1;
+    .email__inEnd {
+      position: relative;
+      top: 0px;
+      left: -320px;
+      z-index: 4;
+    }
+    h2 {
+      position: relative;
+      top: 30px;
+    }
+    h3 {
+      position: relative;
+      top: 20px;
+    }
+    .section__02 {
+      position: relative;
+      left: 30px;
+    }
+    .section__03 {
+      position: relative;
+      left: 30px;
+    }
+    .section__04 {
+      position: relative;
+      left: 30px;
+    }
+    .section__05 {
+      position: relative;
+      top: 60px;
+      left: 120px;
+      .discover {
+        padding-bottom: 20px;
+      }
+    }
+  }
 }
