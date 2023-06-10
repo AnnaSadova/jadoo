@@ -1,60 +1,80 @@
-// .logos {
-//   position: relative;
-//   width: 1073px;
-//   height: 162px;
-//   left: 186px;
-//   top: 3561px;
-// }
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  max-width: 73%;
+  margin-left: 180px;
+}
 .logo__01 {
   position: relative;
   width: 130px;
-  height: 130px;
-  left: 180px;
-  //   top: 3577px;
+  height: 40px;
+  filter: grayscale(100%);
 }
 .logo__02 {
   position: relative;
-  width: 230px;
-  height: 130px;
-  left: 200px;
-  //   top: 3577px;
+  width: 130px;
+  height: 40px;
+  filter: grayscale(100%);
 }
 .logo__03 {
   position: relative;
   width: 160px;
-  height: 140px;
-  left: 256px;
-  //   top: 3577px;
+  height: 40px;
+  filter: grayscale(100%);
 }
 .logo__04 {
   position: relative;
-  width: 150px;
-  height: 35px;
-  left: 336px;
-  top: -45px;
+  width: 140px;
+  height: 30px;
+  filter: grayscale(100%);
 }
 .logo__05 {
   position: relative;
   width: 130px;
   height: 30px;
-  left: 390px;
-  top: -45px;
+  filter: grayscale(100%);
 }
-.forLogo {
-  position: absolute;
-  width: 241px;
-  height: 86px;
-  left: 585px;
-  top: 3503px;
 
-  /* white */
-
-  background: #fff;
-  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
-    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
-    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
-    0px 20px 13px rgba(0, 0, 0, 0.01),
-    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
-    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+.logo__01:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border-radius: 10px;
+}
+.logo__02:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border-radius: 10px;
+}
+.logo__03:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border-radius: 10px;
+}
+.logo__04:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  border-radius: 10px;
+}
+.logo__05:hover {
+  cursor: pointer;
+  filter: grayscale(0%);
+  transform: scale(1.2);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
   border-radius: 10px;
 }
